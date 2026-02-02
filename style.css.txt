@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", serif;
+    background: #f5ecd8; /* vintage paper */
+}
+
+.header {
+    text-align: center;
+    padding: 25px;
+    background: #f0e4c2;
+    border-bottom: 3px solid #c9a46a;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #6b4a2b;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+.input-box {
+    width: 50%;
+    background: #fbf3e1;
+    margin: 25px auto;
+    padding: 20px;
+    border: 2px solid #c9a46a;
+    border-radius: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #47321f;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0 15px 0;
+    border-radius: 6px;
+    border: 1px solid #b89d7a;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #b56a3b;
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8e4f29;
+}
+
+.section-title {
+    font-size: 28px;
+    margin-top: 30px;
+    color: #5b3a1e;
+    border-left: 6px solid #b67b44;
+    padding-left: 12px;
+}
+
+.planner-box {
+    background: #fffdf7;
+    border: 2px dashed #c19b6b;
+    padding: 18px;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.planner-box ul {
+    font-size: 19px;
+}
+
+.planner-box li {
+    margin-bottom: 8px;
+}
